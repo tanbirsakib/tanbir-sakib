@@ -103,7 +103,7 @@ footer p{
   position: relative;
   animation-name: animation-one;
   animation-duration: 4s;
-  animation-iteration-count: 2;
+  animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 @keyframes animation-one {
@@ -120,7 +120,7 @@ footer p{
   position: relative;
   animation-name: animation-two;
   animation-duration: 4s;
-  animation-iteration-count: 2;
+  animation-iteration-count: infinite;
   animation-direction: reverse;
 }
 @keyframes animation-two {
@@ -130,3 +130,33 @@ footer p{
     75%  {left:0px; top:200px;}
     100% {left:0px; top:0px;}
 }
+.transition {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(70deg,skyblue,rgb(62, 131, 158));
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .transition:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(360deg);
+  }
+  .extra-work{
+      float: left;
+  }
+  .animation-transition{
+      padding-top: 100px;
+  }
+  .transition{
+      text-align: center;
+      margin-top: 100px;
+      margin-left: 300px;
+      
+      padding-bottom: 100px;
+  }
+  .transition-paragraph{
+      color:white;
+      font-weight: bold;
+      text-align:center;
+  }
