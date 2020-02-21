@@ -4,14 +4,19 @@ body{
 section{
     height: 600px;
     width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
     padding-right: 200px;
 }
 .heading-highlight{
     color:skyblue;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    
 }
 p{
     color: dimgray;
+    
 }
 .link-button{
     background-image: linear-gradient(70deg,skyblue,rgb(62, 131, 158));
@@ -55,4 +60,11 @@ section.work-section{
 .work-section{
     height: 600px;
     background-image: url("images/latest-work-bg.png");
+}
+.jhankar-heading{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.575);
+}
+.jhankar-introduction{
+    text-align: center;
 }
