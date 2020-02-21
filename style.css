@@ -5,8 +5,8 @@ body{
 section{
     height: 600px;
     width: 100%;
-    padding-bottom: 200px;
-    padding-right: 200px;
+    padding-bottom: 150px;
+    
 }
 .heading-highlight{
     color:skyblue;
@@ -84,7 +84,7 @@ section.work-section{
 }
 #email-information{
     padding: 40px 0px;
-    background-image: linear-gradient( 45deg, #ec4f91,#ed4b73);
+    background-image: linear-gradient(70deg,skyblue,rgb(62, 131, 158));
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
@@ -95,4 +95,38 @@ section.work-section{
 footer p{
     text-align: center;
     color: dimgray;
+}
+.animataion-one{
+    width: 100px;
+  height: 100px;
+  
+  position: relative;
+  animation-name: animation-one;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+}
+@keyframes animation-one {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+.animation-two{
+    width: 100px;
+  height: 100px;
+  
+  position: relative;
+  animation-name: animation-two;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: reverse;
+}
+@keyframes animation-two {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
 }
